@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a7fc3;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 55px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 15px; /* Add margin to the right of the logo */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 25px; /* Adjust the margin-right for the links */
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  /* color: #ddd; */
+  color: #0007cb;
+  background-color: bisque;
+}
+
+/* Optional: Add styles for the navigation links container */
+.nav-links-container {
+  display: flex;
+  align-items: center;
+}

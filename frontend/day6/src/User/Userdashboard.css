@@ -1,0 +1,56 @@
+.admin-container {
+    display: flex;
+  }
+  
+  /* .admin-sidebar-active {
+    height: 95vh;
+    width: 200px;
+    background-color: #707070;
+    color: white;
+    padding: 20px;
+  } */
+  
+  .admin-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .upcoming-events-box {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  table {
+    height: 50vh;
+    width: 120%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #27d6f1;
+    color:black;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

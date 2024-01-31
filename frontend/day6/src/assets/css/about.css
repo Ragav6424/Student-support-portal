@@ -1,0 +1,45 @@
+.about {
+  padding: 30px;
+  text-align:left;
+
+  }
+.about h1{
+  text-align:center;
+}
+/* Add this to your styles or CSS file */
+.aboutcon {
+  display: flex;
+  align-items: center;
+}
+
+.aboutcontainer {
+  flex: 1;
+  padding: 20px; /* Add padding for spacing */
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(75, 153, 217);
+  margin-left: 20px; /* Add margin for spacing */
+}
+
+/* For responsiveness, you can use media queries */
+@media (max-width: 768px) {
+  .aboutcon {
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: flex-start;
+  }
+
+  .aboutcontainer {
+    margin-left: 0; /* Remove margin on smaller screens */
+    margin-top: 10px; /* Adjust margin for spacing */
+  }
+}
+
+.about p{
+  margin-left: 3px;
+  color:white;
+}
+.about h2
+{
+  color: black;
+  margin-left: 1px;
+}

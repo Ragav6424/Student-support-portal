@@ -1,0 +1,18 @@
+.side{
+    width: 15px;
+    align-items: center;
+}
+.side button {
+    background-color: hwb(0 0% 100%);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+  }
+.side button:hover{
+    background-color:blue;
+}
